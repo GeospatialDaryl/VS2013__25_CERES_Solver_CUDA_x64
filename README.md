@@ -1,0 +1,2 @@
+# VS2013__25_CERES_Solver_CUDA_x64
+A VS2013 ready CERES with CUDA at x64
