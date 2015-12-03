@@ -253,7 +253,121 @@
     <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\wall_time.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_2_2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_2_3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_2_4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_2_d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_3_3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_3_4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_3_6.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_3_9.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_3_d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_4_3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_4_4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_4_8.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_4_9.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_4_d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_2_d_d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_4_4_2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_4_4_3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_4_4_4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_4_4_d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\partitioned_matrix_view_d_d_d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_2_2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_2_3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_2_4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_2_d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_3_3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_3_4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_3_6.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_3_9.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_3_d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_4_3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_4_4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_4_8.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_4_9.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_4_d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_2_d_d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_4_4_2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_4_4_3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_4_4_4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_4_4_d.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\generated\schur_eliminator_d_d_d.cc">

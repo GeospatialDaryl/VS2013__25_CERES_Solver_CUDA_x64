@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Ceres")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Ceres_CUDA")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -80,14 +80,14 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ceres/internal" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/config/ceres/internal/config.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ceres/internal" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/config/ceres/internal/config.h")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/CMake/CeresTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/CMake/CeresTargets.cmake"
-         "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/Export/CMake/CeresTargets.cmake")
+         "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/Export/CMake/CeresTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/CMake/CeresTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -96,28 +96,28 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/Export/CMake/CeresTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/Export/CMake/CeresTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/Export/CMake/CeresTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/Export/CMake/CeresTargets-debug.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/Export/CMake/CeresTargets-minsizerel.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/Export/CMake/CeresTargets-minsizerel.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/Export/CMake/CeresTargets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/Export/CMake/CeresTargets-relwithdebinfo.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/Export/CMake/CeresTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/Export/CMake/CeresTargets-release.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE RENAME "CeresConfig.cmake" FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CeresConfig-install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE RENAME "CeresConfig.cmake" FILES "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CeresConfig-install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CMake" TYPE FILE FILES
-    "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CeresConfigVersion.cmake"
+    "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CeresConfigVersion.cmake"
     "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/cmake/FindEigen.cmake"
     "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/cmake/FindGlog.cmake"
     )
@@ -125,9 +125,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/internal/ceres/cmake_install.cmake")
-  include("C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/docs/cmake_install.cmake")
-  include("C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/examples/cmake_install.cmake")
+  include("C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/internal/ceres/cmake_install.cmake")
+  include("C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/docs/cmake_install.cmake")
+  include("C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/examples/cmake_install.cmake")
 
 endif()
 
@@ -139,5 +139,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

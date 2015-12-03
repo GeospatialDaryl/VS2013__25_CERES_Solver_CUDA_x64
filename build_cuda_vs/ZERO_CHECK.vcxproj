@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{63124882-EBC4-468C-9E1B-A6CBA430B042}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\5a167461a7704cdb18c4d2bfcc8f4c4f\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/5a167461a7704cdb18c4d2bfcc8f4c4f/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindLAPACK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-config-version.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-config.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-export.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\AddGerritCommitHook.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\AppendTargetProperty.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CeresConfig.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CeresConfigVersion.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CreateCeresConfig.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindCXSparse.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindEigen.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindGflags.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindGlog.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSharedPtr.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSphinx.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindUnorderedMap.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\UpdateCacheVariable.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\config.h.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\uninstall.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\internal\ceres\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/5a167461a7704cdb18c4d2bfcc8f4c4f/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindLAPACK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-config-version.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-config.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-export.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\AddGerritCommitHook.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\AppendTargetProperty.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CeresConfig.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CeresConfigVersion.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CreateCeresConfig.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindCXSparse.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindEigen.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindGflags.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindGlog.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSharedPtr.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSphinx.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindUnorderedMap.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\UpdateCacheVariable.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\config.h.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\uninstall.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\internal\ceres\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/5a167461a7704cdb18c4d2bfcc8f4c4f/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindLAPACK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-config-version.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-config.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-export.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\AddGerritCommitHook.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\AppendTargetProperty.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CeresConfig.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CeresConfigVersion.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CreateCeresConfig.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindCXSparse.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindEigen.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindGflags.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindGlog.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSharedPtr.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSphinx.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindUnorderedMap.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\UpdateCacheVariable.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\config.h.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\uninstall.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\internal\ceres\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/5a167461a7704cdb18c4d2bfcc8f4c4f/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindBLAS.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindLAPACK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-config-version.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-config.cmake;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\gflags-export.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\AddGerritCommitHook.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\AppendTargetProperty.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CeresConfig.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CeresConfigVersion.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\CreateCeresConfig.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindCXSparse.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindEigen.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindGflags.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindGlog.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSharedPtr.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSphinx.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindUnorderedMap.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\UpdateCacheVariable.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\config.h.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\uninstall.cmake.in;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\internal\ceres\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

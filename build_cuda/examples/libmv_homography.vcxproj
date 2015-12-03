@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -29,25 +29,25 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler 16.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler 16.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler 16.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler 16.0</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -56,36 +56,36 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\bin\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libmv_homography.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libmv_homography</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\bin\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libmv_homography.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libmv_homography</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\bin\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libmv_homography.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libmv_homography</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\bin\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libmv_homography.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libmv_homography</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libmv_homography.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libmv_homography</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libmv_homography.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libmv_homography</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libmv_homography.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libmv_homography</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libmv_homography.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libmv_homography</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_VARIADIC_MAX=10;CERES_GFLAGS_NAMESPACE=google;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,10 +120,11 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/lib/Debug/libmv_homography.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/bin/Debug/libmv_homography.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/lib/Debug/libmv_homography.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/bin/Debug/libmv_homography.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -131,7 +132,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4018;4099;4996;4800;4996;4244;4251</DisableSpecificWarnings>
@@ -145,14 +146,15 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_VARIADIC_MAX=10;CERES_GFLAGS_NAMESPACE=google;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_VARIADIC_MAX=10;CERES_GFLAGS_NAMESPACE=google;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -165,10 +167,11 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/lib/Release/libmv_homography.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/bin/Release/libmv_homography.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/lib/Release/libmv_homography.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/bin/Release/libmv_homography.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -176,7 +179,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4018;4099;4996;4800;4996;4244;4251</DisableSpecificWarnings>
@@ -190,14 +193,15 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_VARIADIC_MAX=10;CERES_GFLAGS_NAMESPACE=google;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_VARIADIC_MAX=10;CERES_GFLAGS_NAMESPACE=google;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -210,10 +214,11 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/lib/MinSizeRel/libmv_homography.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/bin/MinSizeRel/libmv_homography.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/lib/MinSizeRel/libmv_homography.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/bin/MinSizeRel/libmv_homography.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -221,7 +226,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -239,10 +244,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_VARIADIC_MAX=10;CERES_GFLAGS_NAMESPACE=google;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -255,10 +260,11 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/lib/RelWithDebInfo/libmv_homography.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/bin/RelWithDebInfo/libmv_homography.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/lib/RelWithDebInfo/libmv_homography.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/bin/RelWithDebInfo/libmv_homography.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -268,7 +274,7 @@
     <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/examples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\examples\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -277,11 +283,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/examples/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/examples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\examples\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -290,11 +296,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/examples/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/examples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\examples\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -303,11 +309,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/examples/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/examples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\examples\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -316,18 +322,18 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/examples/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\examples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\libmv_homography.cc"  />
+    <ClCompile Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\examples\libmv_homography.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/ZERO_CHECK.vcxproj">
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/ZERO_CHECK.vcxproj">
       <Project>63124882-EBC4-468C-9E1B-A6CBA430B042</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/internal/ceres/ceres.vcxproj">
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/internal/ceres/ceres.vcxproj">
       <Project>79592180-D784-47CD-843C-98670D6E46F1</Project>
     </ProjectReference>
   </ItemGroup>

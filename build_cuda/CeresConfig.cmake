@@ -119,7 +119,7 @@ if (CERES_WAS_INSTALLED)
   # install directory for this this file.  This allows for the install
   # tree to be relocated, after Ceres was built, outside of CMake.
   get_filename_component(CURRENT_ROOT_INSTALL_DIR
-    ${CERES_CURRENT_CONFIG_DIR}/../
+    ${CERES_CURRENT_CONFIG_DIR}/../../ceres-solver
     ABSOLUTE)
   if (NOT EXISTS ${CURRENT_ROOT_INSTALL_DIR})
     ceres_report_not_found(
@@ -146,7 +146,7 @@ else(CERES_WAS_INSTALLED)
   # Ceres was exported from the build tree.
   set(CERES_EXPORTED_BUILD_DIR ${CERES_CURRENT_CONFIG_DIR})
   get_filename_component(CERES_EXPORTED_SOURCE_DIR
-    ${CERES_EXPORTED_BUILD_DIR}/../
+    ${CERES_EXPORTED_BUILD_DIR}/../../ceres-solver
     ABSOLUTE)
   if (NOT EXISTS ${CERES_EXPORTED_SOURCE_DIR})
     ceres_report_not_found(

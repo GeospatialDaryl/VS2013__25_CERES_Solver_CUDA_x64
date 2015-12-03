@@ -65,7 +65,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\AMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\COLAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CCOLAMD\Include;C:\Users\dkvandyke\Source\Repos\20_SuiteSparse_Metis_for_Win_GCC\VS2013__20_SuiteSparse_noCUDA_MKL\SuiteSparse_here\CHOLMOD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\SuiteSparse_config;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -87,7 +87,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\AMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\COLAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CCOLAMD\Include;C:\Users\dkvandyke\Source\Repos\20_SuiteSparse_Metis_for_Win_GCC\VS2013__20_SuiteSparse_noCUDA_MKL\SuiteSparse_here\CHOLMOD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\SuiteSparse_config;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -109,7 +109,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\AMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\COLAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CCOLAMD\Include;C:\Users\dkvandyke\Source\Repos\20_SuiteSparse_Metis_for_Win_GCC\VS2013__20_SuiteSparse_noCUDA_MKL\SuiteSparse_here\CHOLMOD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\SuiteSparse_config;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -131,7 +131,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\AMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\COLAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CCOLAMD\Include;C:\Users\dkvandyke\Source\Repos\20_SuiteSparse_Metis_for_Win_GCC\VS2013__20_SuiteSparse_noCUDA_MKL\SuiteSparse_here\CHOLMOD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\SuiteSparse_config;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -152,7 +152,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\43bf923eb58a34b93ae3d6b62e42ba11\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\CMakeFiles\f9116e1532342ec95f60afa51a83b5a1\RUN_TESTS_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -163,8 +163,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/43bf923eb58a34b93ae3d6b62e42ba11/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\internal\ceres\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/f9116e1532342ec95f60afa51a83b5a1/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\internal\ceres\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
@@ -176,8 +176,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/43bf923eb58a34b93ae3d6b62e42ba11/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\internal\ceres\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/f9116e1532342ec95f60afa51a83b5a1/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\internal\ceres\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
@@ -189,8 +189,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/43bf923eb58a34b93ae3d6b62e42ba11/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\internal\ceres\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/f9116e1532342ec95f60afa51a83b5a1/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\internal\ceres\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
@@ -202,8 +202,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/43bf923eb58a34b93ae3d6b62e42ba11/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\internal\ceres\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/f9116e1532342ec95f60afa51a83b5a1/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\internal\ceres\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>

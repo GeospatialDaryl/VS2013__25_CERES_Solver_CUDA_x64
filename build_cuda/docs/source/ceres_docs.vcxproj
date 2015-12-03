@@ -65,7 +65,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\AMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\COLAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CCOLAMD\Include;C:\Users\dkvandyke\Source\Repos\20_SuiteSparse_Metis_for_Win_GCC\VS2013__20_SuiteSparse_noCUDA_MKL\SuiteSparse_here\CHOLMOD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\SuiteSparse_config;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -75,7 +75,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\AMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\COLAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CCOLAMD\Include;C:\Users\dkvandyke\Source\Repos\20_SuiteSparse_Metis_for_Win_GCC\VS2013__20_SuiteSparse_noCUDA_MKL\SuiteSparse_here\CHOLMOD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\SuiteSparse_config;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,7 +85,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\AMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\COLAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CCOLAMD\Include;C:\Users\dkvandyke\Source\Repos\20_SuiteSparse_Metis_for_Win_GCC\VS2013__20_SuiteSparse_noCUDA_MKL\SuiteSparse_here\CHOLMOD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\SuiteSparse_config;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -95,7 +95,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;C:\Users\dkvandyke\Source\Repos\21_GFlags\gflags\build\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\config;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\include;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\internal\ceres;C:\Users\dkvandyke\Source\Repos\24_GLOG\glog\src\windows;C:\Program Files\Eigen\include\eigen3;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\AMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\COLAMD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\CCOLAMD\Include;C:\Users\dkvandyke\Source\Repos\20_SuiteSparse_Metis_for_Win_GCC\VS2013__20_SuiteSparse_noCUDA_MKL\SuiteSparse_here\CHOLMOD\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\GPUQREngine\Include;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\suitesparse-metis-for-windows-master\SuiteSparse\SuiteSparse_config;C:\Users\dkvandyke\Source\Repos\19_SuiteSparse_Metis_for_Win\SuiteSparse_CUA_421\CXSparse\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -107,7 +107,7 @@
     <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/docs/source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -116,11 +116,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/docs/source/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSphinx.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/docs/source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -129,11 +129,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/docs/source/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSphinx.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/docs/source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -142,11 +142,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/docs/source/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSphinx.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/docs/source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver -BC:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda --check-stamp-file C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -155,15 +155,15 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/docs/source/CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\cmake\FindSphinx.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\7902c9993cea09e6bb6fd7ac4f3d0493\ceres_docs.rule">
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\CMakeFiles\c7e93080d0519a76af0bb8306651883d\ceres_docs.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building HTML documentation with Sphinx</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-python C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/scripts/make_docs.py C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/docs C:/Python27/Scripts/sphinx-build.exe
+python C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/scripts/make_docs.py C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/docs C:/Python27/Scripts/sphinx-build.exe
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -171,12 +171,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/7902c9993cea09e6bb6fd7ac4f3d0493/ceres_docs.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\ceres_docs</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/c7e93080d0519a76af0bb8306651883d/ceres_docs.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\ceres_docs</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building HTML documentation with Sphinx</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-python C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/scripts/make_docs.py C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/docs C:/Python27/Scripts/sphinx-build.exe
+python C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/scripts/make_docs.py C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/docs C:/Python27/Scripts/sphinx-build.exe
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -184,12 +184,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/7902c9993cea09e6bb6fd7ac4f3d0493/ceres_docs.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\ceres_docs</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/c7e93080d0519a76af0bb8306651883d/ceres_docs.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\ceres_docs</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building HTML documentation with Sphinx</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-python C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/scripts/make_docs.py C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/docs C:/Python27/Scripts/sphinx-build.exe
+python C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/scripts/make_docs.py C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/docs C:/Python27/Scripts/sphinx-build.exe
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,12 +197,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/7902c9993cea09e6bb6fd7ac4f3d0493/ceres_docs.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\ceres_docs</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/c7e93080d0519a76af0bb8306651883d/ceres_docs.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\ceres_docs</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building HTML documentation with Sphinx</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-python C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/scripts/make_docs.py C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/docs C:/Python27/Scripts/sphinx-build.exe
+python C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/scripts/make_docs.py C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/docs C:/Python27/Scripts/sphinx-build.exe
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -210,16 +210,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/CMakeFiles/7902c9993cea09e6bb6fd7ac4f3d0493/ceres_docs.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\ceres_docs</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/CMakeFiles/c7e93080d0519a76af0bb8306651883d/ceres_docs.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\ceres_docs</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\ceres_docs" />
+    <None Include="C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\ceres_docs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/ZERO_CHECK.vcxproj">
+    <ProjectReference Include="C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/ZERO_CHECK.vcxproj">
       <Project>63124882-EBC4-468C-9E1B-A6CBA430B042</Project>
     </ProjectReference>
   </ItemGroup>

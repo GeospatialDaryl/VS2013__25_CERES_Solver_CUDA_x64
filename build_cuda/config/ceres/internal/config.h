@@ -45,16 +45,16 @@
 #define CERES_USE_EIGEN_SPARSE
 
 // If defined, Ceres was compiled without LAPACK.
-#define CERES_NO_LAPACK
+// #define CERES_NO_LAPACK
 
 // If defined, Ceres was compiled without SuiteSparse.
-#define CERES_NO_SUITESPARSE
+// #define CERES_NO_SUITESPARSE
 
 // If defined, Ceres was compiled without CXSparse.
 // #define CERES_NO_CXSPARSE
 
 // If defined, Ceres was compiled without Schur specializations.
-#define CERES_RESTRICT_SCHUR_SPECIALIZATION
+// #define CERES_RESTRICT_SCHUR_SPECIALIZATION
 
 // If defined, Ceres was compiled to use Eigen instead of hardcoded BLAS
 // routines.

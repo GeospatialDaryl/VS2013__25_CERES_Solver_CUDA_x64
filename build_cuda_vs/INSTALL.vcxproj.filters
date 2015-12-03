@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\5a167461a7704cdb18c4d2bfcc8f4c4f\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1B628BE9-7CB8-4D1C-8D7B-FA96CC08EE02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

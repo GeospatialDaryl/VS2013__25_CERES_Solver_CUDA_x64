@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\8e59393f2b100bb4b549273b3fa8a88c\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\CMakeFiles\1c25e84e4998bfd4d1ad3fd04bbf358b\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>

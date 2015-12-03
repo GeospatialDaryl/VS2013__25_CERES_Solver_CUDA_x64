@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\docs\source\CMakeLists.txt" />
-    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\CMakeFiles\7902c9993cea09e6bb6fd7ac4f3d0493\ceres_docs.rule">
+    <CustomBuild Include="C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\CMakeFiles\c7e93080d0519a76af0bb8306651883d\ceres_docs.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\dkvandyke\Source\Repos\25_CERES\ceres-solver\build_cuda\docs\source\CMakeFiles\ceres_docs" />
+    <None Include="C:\Users\dkvandyke\Source\Repos\25_CERES\VS2013__25_CERES_Solver_CUDA_x64\build_cuda\docs\source\CMakeFiles\ceres_docs" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">

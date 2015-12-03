@@ -34,12 +34,12 @@ if (COMMAND cmake_policy)
   cmake_policy(SET CMP0007 OLD)
 endif (COMMAND cmake_policy)
 
-if (NOT EXISTS "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/install_manifest.txt")
+if (NOT EXISTS "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/install_manifest.txt")
   message(FATAL_ERROR "Cannot find install manifest: "
-                      "\"C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/install_manifest.txt\"")
-endif (NOT EXISTS "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/install_manifest.txt")
+                      "\"C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/install_manifest.txt\"")
+endif (NOT EXISTS "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/install_manifest.txt")
 
-file(READ "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/install_manifest.txt" INSTALL_MANIFEST)
+file(READ "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/install_manifest.txt" INSTALL_MANIFEST)
 string(REGEX REPLACE "\n" ";" INSTALL_MANIFEST "${INSTALL_MANIFEST}")
 list(REVERSE INSTALL_MANIFEST)
 

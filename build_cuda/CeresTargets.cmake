@@ -44,33 +44,33 @@ add_library(ceres SHARED IMPORTED)
 # Import target "ceres" for configuration "Debug"
 set_property(TARGET ceres APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(ceres PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/lib/Debug/ceres-debug.lib"
+  IMPORTED_IMPLIB_DEBUG "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/lib/Debug/ceres-debug.lib"
   IMPORTED_LINK_INTERFACE_LIBRARIES_DEBUG "C:/Users/dkvandyke/Source/Repos/24_GLOG/glog/x64/Release/libglog.lib"
-  IMPORTED_LOCATION_DEBUG "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/bin/Debug/ceres-debug.dll"
+  IMPORTED_LOCATION_DEBUG "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/bin/Debug/ceres-debug.dll"
   )
 
 # Import target "ceres" for configuration "Release"
 set_property(TARGET ceres APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(ceres PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/lib/Release/ceres.lib"
+  IMPORTED_IMPLIB_RELEASE "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/lib/Release/ceres.lib"
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "C:/Users/dkvandyke/Source/Repos/24_GLOG/glog/x64/Release/libglog.lib"
-  IMPORTED_LOCATION_RELEASE "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/bin/Release/ceres.dll"
+  IMPORTED_LOCATION_RELEASE "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/bin/Release/ceres.dll"
   )
 
 # Import target "ceres" for configuration "MinSizeRel"
 set_property(TARGET ceres APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(ceres PROPERTIES
-  IMPORTED_IMPLIB_MINSIZEREL "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/lib/MinSizeRel/ceres.lib"
+  IMPORTED_IMPLIB_MINSIZEREL "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/lib/MinSizeRel/ceres.lib"
   IMPORTED_LINK_INTERFACE_LIBRARIES_MINSIZEREL "C:/Users/dkvandyke/Source/Repos/24_GLOG/glog/x64/Release/libglog.lib"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/bin/MinSizeRel/ceres.dll"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/bin/MinSizeRel/ceres.dll"
   )
 
 # Import target "ceres" for configuration "RelWithDebInfo"
 set_property(TARGET ceres APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(ceres PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/lib/RelWithDebInfo/ceres.lib"
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/lib/RelWithDebInfo/ceres.lib"
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELWITHDEBINFO "C:/Users/dkvandyke/Source/Repos/24_GLOG/glog/x64/Release/libglog.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/build_cuda/bin/RelWithDebInfo/ceres.dll"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda/bin/RelWithDebInfo/ceres.dll"
   )
 
 # This file does not depend on other imported targets which have
