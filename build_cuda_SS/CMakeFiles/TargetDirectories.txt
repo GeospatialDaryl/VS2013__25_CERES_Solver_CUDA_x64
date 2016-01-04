@@ -1,0 +1,4 @@
+C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda_SS/CMakeFiles/uninstall.dir
+C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda_SS/CMakeFiles/ALL_BUILD.dir
+C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda_SS/CMakeFiles/ZERO_CHECK.dir
+C:/Users/dkvandyke/Source/Repos/25_CERES/VS2013__25_CERES_Solver_CUDA_x64/build_cuda_SS/internal/ceres/CMakeFiles/ceres.dir

@@ -58,7 +58,7 @@
 
 // If defined, Ceres was compiled to use Eigen instead of hardcoded BLAS
 // routines.
-// #define CERES_NO_CUSTOM_BLAS
+#define CERES_NO_CUSTOM_BLAS
 
 // If defined, Ceres was compiled with C++11.
 // #define CERES_USE_CXX11

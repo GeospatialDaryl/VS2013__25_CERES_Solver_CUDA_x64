@@ -23,10 +23,10 @@ AMD_LIBRARY:FILEPATH=C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Wi
 BLAS_LIBRARIES:FILEPATH=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v6.5/lib/x64/cublas.lib
 
 //Path to a library.
-BLAS_mkl_gf_lp64_LIBRARY:FILEPATH=C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.0.110/windows/mkl/lib/intel64_win/mkl_intel_lp64.lib
+BLAS_mkl_gf_lp64_LIBRARY:FILEPATH=
 
 //Path to a library.
-BLAS_mkl_lapack_LIBRARY:FILEPATH=C:/Program Files (x86)/IntelSWTools/compilers_and_libraries_2016.0.110/windows/mkl/lib/intel64_win/mkl_lapack95_lp64.lib
+BLAS_mkl_lapack_LIBRARY:FILEPATH=
 
 //Build User's Guide (html)
 BUILD_DOCUMENTATION:BOOL=ON
@@ -203,7 +203,7 @@ COLAMD_INCLUDE_DIR:PATH=C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for
 COLAMD_LIBRARY:FILEPATH=C:/Users/dkvandyke/Source/Repos/19_SuiteSparse_Metis_for_Win/suitesparse-metis-for-windows-master/build_cuda/lib/Release/libcolamd.lib
 
 //Use handcoded BLAS routines (usually faster) instead of Eigen.
-CUSTOM_BLAS:BOOL=ON
+CUSTOM_BLAS:BOOL=OFF
 
 //Enable CXSparse.
 CXSPARSE:BOOL=ON
