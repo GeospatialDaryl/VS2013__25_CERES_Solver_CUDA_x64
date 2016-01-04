@@ -1,6 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/docs/source/CMakeLists.txt
-C:/Users/dkvandyke/Source/Repos/25_CERES/ceres-solver/cmake/FindSphinx.cmake
-C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
-C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
